@@ -2,11 +2,12 @@
 
 import { motion } from 'framer-motion'
 import { Award, Shield, CheckCircle, Globe } from 'lucide-react'
+import { LucideIcon } from 'lucide-react'
 
 interface CertificationCardProps {
   title: string
   description: string
-  icon: React.ComponentType<{ size?: number; className?: string }>
+  icon: LucideIcon
   year?: string
   status?: string
 }
